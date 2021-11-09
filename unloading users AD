@@ -1,3 +1,1 @@
 Get-ADUser -Filter {(mail -ne "null") -and (Enabled -eq "True")} -Properties Surname,GivenName,mail | Select-Object SamAccountName,Name,Surname,GivenName,mail | Export-csv -path c:\temp\user-password-expires.csv -Append -Encoding UTF8
-#Скрипт создает файл c:\temp\user-password-expires.csv с активными(не отключенными ) пользователями и полями SamAccount , Name, Surname, GivenName, mail. CSV файл разделенный запятыми.
- 
