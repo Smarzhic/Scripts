@@ -5,3 +5,4 @@ unloading users AD.ps1 - Скрипт создает файл c:\temp\user-passw
 
 GP policy.ps1 - Отчеты по групповым политикам
  
+restoring trust.ps1  - Восстановление доверия рабочей станций с контроллером домена
